@@ -4,3 +4,4 @@ description: "Albin Larssons Blog"
 baseurl: "http://abbe98.github.io/blog"
 
 permalink: pretty
+source: ./blog
