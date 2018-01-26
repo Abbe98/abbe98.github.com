@@ -4,6 +4,9 @@ title: Cache Busting Wikidata SparQL Queries
 description: Whenever you write a Wikidata query form which you do not expect the result to be the same each time, you will run into the issue of caching.
 image: https://byabbe.se/assets/wikidata.png
 ---
+
+**UPDATE:** By setting a `cache-control: no-cache` header you can disable this query caching.
+
 ### The problem
 
 Whenever you write a Wikidata query form which you do not expect the result to be the same each time, you will run into the issue of caching. Lets take the following example, returning a random cat\:
