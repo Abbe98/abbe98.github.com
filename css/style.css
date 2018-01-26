@@ -158,12 +158,12 @@ a:active {
   text-decoration: none;
 }
 
-.tweet-link span {
+a.tweet-link span {
   display: inline-block;
-  transform: rotate(95deg);
+  transform: rotate(90deg);
 }
 
-.tweet-link:hover span {
+a.tweet-link:hover span {
   transition: transform 99999s;
   transform: rotate(999999deg);
 }
