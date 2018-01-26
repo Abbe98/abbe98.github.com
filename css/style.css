@@ -164,7 +164,7 @@ a.tweet-link span {
 }
 
 a.tweet-link:hover span {
-  transition: transform 99999s;
+  transition: transform 60s;
   transform: rotate(999999deg);
 }
 
