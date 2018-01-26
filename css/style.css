@@ -154,7 +154,7 @@ a:active {
   text-decoration: underline;
 }
 
-.tweet-link {
+a.tweet-link {
   text-decoration: none;
 }
 
