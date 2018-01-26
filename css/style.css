@@ -153,6 +153,20 @@ a:active {
   text-decoration: underline;
 }
 
+.tweet-link {
+  text-decoration: none;
+}
+
+.tweet-link span {
+  display: inline-block;
+  transform: rotate(95deg);
+}
+
+.tweet-link:hover span {
+  transition: transform 99999s;
+  transform: rotate(999999deg);
+}
+
 /* Post
  ========================================================================== */
 
