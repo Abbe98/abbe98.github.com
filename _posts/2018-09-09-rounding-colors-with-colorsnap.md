@@ -50,7 +50,7 @@ palette = ['#4286f4', '#414449']
 snap_color(palette, '#0000ba')
 </code></pre>
 
-It's available over at [PyPI](2) and [Github](3).
+It's available over at [PyPI][2] and [Github][3].
 
 [0]: https://byabbe.se/assets/screenshot-gi-raa-color-filter.png
 [1]: https://byabbe.se/assets/colorsnap-example.png
