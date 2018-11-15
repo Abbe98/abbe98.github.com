@@ -237,3 +237,27 @@ pre {
   word-wrap: normal !important;
   white-space: pre !important;
 }
+
+/* *************** DARK MODE *************** */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ededed;
+    background-color: #282828;
+  }
+
+  .post img {
+    opacity: 0.85;
+  }
+
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    color: #fff;
+  }
+
+  code:not([class*="language-"]) {
+    background: #454545;
+  }
+}
