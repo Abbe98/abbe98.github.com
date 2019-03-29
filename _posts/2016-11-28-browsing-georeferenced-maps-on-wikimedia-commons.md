@@ -3,6 +3,8 @@ layout: post
 title: Browsing Georeferenced Maps on Wikimedia Commons
 description: Browsing georeferenced maps on Wikimedia Commons with a userscript.
 image: https://byabbe.se/assets/warper-commons-viewer.gif
+redirect_from:
+  - /blog/2016/11/28/browsing-georeferenced-maps-on-wikimedia-commons
 ---
 There is tons of georeferenced maps over at Wikimedia Commons and the Wikimaps Warper and earlier this year we added the ability to retrieve the georeferenced data from the Warper by the Commons page ID. This allows developers and others writing UserScripts and Gadgets to fetch Warper data directly from Commons.
 

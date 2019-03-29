@@ -3,6 +3,8 @@ layout: post
 title: Biocaching.com and PHP
 description: The main Biocaching client biocaching.com is built with PHP and I was the one responsible for the decision to do it that way.
 image: https://byabbe.se/assets/bc-profile-screenshot.png
+redirect_from:
+  - /blog/2016/11/03/biocaching-com-and-php
 ---
 The main Biocaching client [biocaching.com](https://biocaching.com/) is built with PHP and I was the one responsible for the decision to do it that way.
 

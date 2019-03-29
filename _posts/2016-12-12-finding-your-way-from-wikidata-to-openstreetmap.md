@@ -3,6 +3,8 @@ layout: post
 title: Finding your way from Wikidata to OpenStreetMap
 description: I wrote a user script to get you from Wikidata to OpenStreetMap.
 image: https://byabbe.se/assets/wikidata-osm-userscript.png
+redirect_from:
+  - /blog/2016/12/12/finding-your-way-from-wikidata-to-openstreetmap
 ---
 Recently there has been multiply discussions about the connections between Wikidata and OpenStreetMap. Many Wikimedians has been concerned about the one way connection through the `wikidata` tag over at OpenStreetMap and the lack of a way to find the corresponding OpenStreetMap element from within Wikidata.
 

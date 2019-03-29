@@ -3,6 +3,8 @@ layout: post
 title: Weekend Hack&#58; Custom Mapillary Leaderboards
 description: Introduction to Custom Mapillary Leaderboards a recent weekend hack that let\'s you create a custom Mapillary leaderboard for your friends or event.
 image: https://byabbe.se/assets/mapillary-custom-leaderboards.png
+redirect_from:
+  - /blog/2017/05/31/weekend-hack-custom-mapillary-leaderboards
 ---
 ![screenshot](https://byabbe.se/assets/mapillary-custom-leaderboards.png)
 
