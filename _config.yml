@@ -2,6 +2,6 @@ name: "Blog"
 permalink: :year/:month/:day/:title
 paginate: 4
 paginate_path: "blog/page:num"
-baseurl: /
+baseurl: /blog/
 gems:
   - jekyll-sitemap
