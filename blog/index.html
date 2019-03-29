@@ -54,14 +54,14 @@ image: https://byabbe.se/assets/default2.png
 		<section class="dark">
 			<div class="btn-container">
 			{% if paginator.next_page %}
-				<a class="btn" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+				<a class="btn" href="/blog/page{{paginator.next_page}}">Older ({{paginator.next_page}})</a>
 			{% else %}
 				<span class="btn" aria-hidden="true"  style="transition: none; background: none; color: rgb(247, 247, 242);">Older</span>
 			{% endif %}
 			{% if paginator.previous_page %}
 				{% if paginator.page == 2 %}
-					<a class="btn" href="{{ site.baseurl }}">Newer</a>
-				{% else %} <a class="btn" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+					<a class="btn" href="/blog">Newer</a>
+				{% else %} <a class="btn" href="/blog/page{{paginator.previous_page}}">Newer</a>
 				{% endif %}
 			{% else %}
 				<span class="btn" aria-hidden="true" style="transition: none; background: none; color: rgb(247, 247, 242);">Newer</span>
