@@ -32,7 +32,11 @@ image: https://byabbe.se/assets/default2.png
 		<div class="container">
 			{% for post in paginator.posts %}
 			<article class="post">
-				<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
+				{% if post.type == 'link' %}
+				<h2><a href="{{ post.external_url }}" title="{{ post.target }}">{{ post.title }} 🔗</a></h2>
+				{% else %}
+				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				{% endif %}
 				<small class="date">
 					{% assign day = post.date | date: '%d' %}
 					{% case day %}

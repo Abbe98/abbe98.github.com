@@ -27,7 +27,11 @@ image: https://byabbe.se/assets/default2.png
 				<ul class="archive">
 					{% for post in site.posts %}
 					<li class="archive">
+						{% if post.type == 'link' %}
+						<span>{{ post.date | date: '%d %B %Y' }}</span> &raquo; <a href="{{ post.external_url }}" title="{{ post.target }}">{{ post.title }} 🔗</a>
+						{% else %}
 						<span>{{ post.date | date: '%d %B %Y' }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+						{% endif %}
 					</li>
 					{% endfor %}
 				</ul>
