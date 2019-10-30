@@ -23,7 +23,7 @@ Being an aggregator allows us to lower barriers for 70+ data partners so by cura
 
 The current data quality queries available to data partners in the current proof of concept version of the data portal (we and partners have plenty of other ones in mind).
 
-![Screenshot of an quality page displaying items with errors in a table.](https://byabbe.se/assets/soch-data-portal-main.png)
+![Screenshot of an quality page displaying items with errors in a table.](https://byabbe.se/assets/soch-data-portal-items.png)
 
 Following the selection of quality query and providing institution a list of problematic or possible problematic objects are presented to the user in a list containing a link back to the source page or CMS as well as other metadata that might be relevant for the given query.
 
