@@ -14,9 +14,15 @@ layout: null
   </author>{% for post in site.posts %}
   <entry>
     <title>{{ post.title }}</title>
-    <link href="https://byabbe.se{{ post.url }}"/>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>https://byabbe.se{{ post.id }}</id>
-    <content type="html">{{ post.content | xml_escape }}</content>
+    {% if post.type == 'link' %}
+      <link href="{{ post.external_url }}"/>
+      <content type="html">&lt;a href=&quot;{{ post.external_url }}&quot;&gt;Read this post on {{ post.target }}.&lt;/a&gt;</content>
+      <id>{{ post.external_url }}</id>
+    {% else %}
+      <link href="https://byabbe.se{{ post.url }}"/>
+      <content type="html">{{ post.content | xml_escape }}</content>
+      <id>https://byabbe.se{{ post.id }}</id>
+    {% endif %}
   </entry>{% endfor %}
 </feed>
