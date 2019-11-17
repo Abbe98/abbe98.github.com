@@ -9,9 +9,11 @@ layout: null
 		<meta name="google-site-verification" content="ggbSb9CvyxZ8PpDwiViwiTeoswb37GKsWGMr7a6Nzew"/>
 		<title>{{ page.title }}</title>
 
+		{% if page.type == 'post' %}
 		<meta name="description" content="{{ page.description }}"/>
 		<meta property="og:image" content="{{ page.image }}"/>
 		<meta property="og:description" content="{{ page.description }}"/>
+		{% endif %}
 
 		<link rel="alternate" type="application/rss+xml" href="/blog/atom.xml" title="Albin Larssons Blog"/>
 		<link rel="icon" href="/favicon.ico" type="shortcut icon"/>
@@ -21,10 +23,15 @@ layout: null
 {% include menu.html %}
 		<article class="post container">
 			<h2>{{ page.title }}</h2>
+
+			{% if page.type == 'post' %}
 			{{ content }}
 			<div class="share print-hidden">
 				<a class="tweet-link" href="https://twitter.com/intent/tweet?url=https://byabbe.se{{ page.url }}&text={{ page.title }}%0A">Tweet Something? <span>:-)</span></a>
 			</div>
+			{% else %}
+			<a href="{{ page.external_url }}">Read this post on {{ page.target }}.</a>
+			{% endif %}
 		</article>
 		<footer style="text-align: center;">
 			<p>Copyright <a href="/">Albin Larsson</a> 2013-2019 • <a href="/archive.html">Archive</a> • <a href="/blog/atom.xml">RSS</a></p>
