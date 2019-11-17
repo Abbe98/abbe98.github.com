@@ -3,6 +3,8 @@ layout: post
 title: VirtualBox&#58; Extending the Storage Size of a VM
 description: How to extend the storage of a VDI or VHD machine.
 image: https://byabbe.se/assets/default.png
+tags:
+  - tips
 ---
 
 I spend way to much time in a Virtual Machine, I always give them to little storage and I always find myself searching the web for a solution to increase the storage of a particular VM. This is my attempt to learn it for real once, or at least have all the information in the same place for future my needs.

@@ -3,6 +3,8 @@ layout: post
 title: Browsing Georeferenced Maps on Wikimedia Commons
 description: Browsing georeferenced maps on Wikimedia Commons with a userscript.
 image: https://byabbe.se/assets/warper-commons-viewer.gif
+tags:
+  - wikimedia
 redirect_from:
   - /blog/2016/11/28/browsing-georeferenced-maps-on-wikimedia-commons
 ---

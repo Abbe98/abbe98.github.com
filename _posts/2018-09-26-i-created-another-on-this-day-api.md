@@ -3,6 +3,8 @@ layout: post
 title: I Created Another On this Day API
 description: There are multiple "On this Day" APIs built on top of Wikipedia but I created yet another one. This API can be used to retrieve birth, deaths, and events for any given day of the year.
 image: https://byabbe.se/assets/screenshot-on-this-day-api-docs.png
+tags:
+  - wikimedia
 ---
 
 ![screenshot of documentation](https://byabbe.se/assets/screenshot-on-this-day-api-docs.png)

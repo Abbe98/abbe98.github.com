@@ -3,6 +3,8 @@ layout: post
 title: Getting time
 description: Getting time is quite hard some times.
 image: https://byabbe.se/assets/default.png
+tags:
+  - other
 ---
 Every day we spend time, most of the time I do something useful, but I spend hours doing “nothing” in school and on the bus. This blog looks pretty ugly right now, I it is not prioritized. I have tons of projects and I’m working on several open source projects... Today during the art class we were introduced to our next task, an image or something else that could represent you…
 

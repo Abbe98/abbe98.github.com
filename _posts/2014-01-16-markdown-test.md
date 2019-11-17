@@ -3,6 +3,8 @@ layout: post
 title: Markdown Test
 description: Test case for Markdown on this blog.
 image: https://byabbe.se/assets/default.png
+tags:
+  - other
 ---
 
 This is just a major test for markdown, Jekyll excerpt and code highlighting.

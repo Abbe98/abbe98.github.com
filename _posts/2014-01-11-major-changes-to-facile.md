@@ -3,6 +3,8 @@ layout: post
 title: Major changes to Facile
 description: Facile Framework could become a CSS prototyping framework.
 image: https://byabbe.se/assets/default.png
+tags:
+  - other
 ---
 When I took the development of facile Framework public, I was using it as a component when building websites and apps. I did never use the entire framework for a site or more than one color swatch. The major difference between Facile and other front end frameworks such as Twitter Bootstrap or Foundation was that Facile was no front end framework, it was a CSS framework and nothing more…
 

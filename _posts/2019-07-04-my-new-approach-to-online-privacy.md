@@ -3,6 +3,9 @@ layout: post
 title: My new approach to online privacy
 description: My new approach to online privacy and the issues that lead me to these new actions.
 image: https://byabbe.se/assets/default.png
+tags:
+  - privacy
+  - methodology
 ---
 I have for the last few yeas had a online privacy approach in the style of "Do not put all eggs in the same basket" or exemplified in the style of "If I use Google for email I won't use it for browsing the web".
 

@@ -3,6 +3,8 @@ layout: post
 title: OMap Mapper day three
 description: The OMap Mapper project day three, some UI stuff and a Mozilla joke.
 image: https://byabbe.se/assets/default.png
+tags:
+  - omapmapper
 ---
 Now most of the boring stuff is done, all validation works and the select location is ported to JavaScript, not all the a11y related stuff but it works. It will be quite inaccessible anyway because I don't deal with all the auto focus that a JavaScript based UI would need.
 

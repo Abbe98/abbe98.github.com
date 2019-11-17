@@ -3,6 +3,8 @@ layout: post
 title: Kyrksok.se gets a VR Viewer
 description: Last week I took the opportunity to add a VR Viewer for 360 degrees photos to the Kyrksok.se.
 image: https://byabbe.se/assets/kyrksok.png
+tags:
+  - web technologies
 ---
 
 ![The Kyrksok logo](https://byabbe.se/assets/kyrksok.png)

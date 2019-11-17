@@ -3,6 +3,9 @@ layout: post
 title: 7 Online Web Development Tools I Use
 description: I'm listing seven of my favorite online tools for web development.
 image: https://byabbe.se/assets/screenshot-coolors-co.png
+tags:
+  - methodology
+  - tips
 ---
 
 Seven of my favorite online tools for web development.

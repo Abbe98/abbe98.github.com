@@ -3,6 +3,8 @@ layout: post
 title: OpenStreetMap CLC06 Import Cleanup Part Two
 description: My work on cleaning up CLC06 data in OpenStreetMap is done for now.
 image: https://byabbe.se/assets/osm-ways-relations.jpg
+tags:
+  - openstreetmap
 ---
 [In January I proposed](https://byabbe.se/blog/2015/01/05/openstreetmap-clc06-import-cleanup/) cleaning up a lot of imported CLC06 data manually to preserve the OSM ecosystem. Mappers had a hard time working with the large multipolygons and tools such as Tilemill/Mapbox Studio/iD all had rendering issues. Because of those issues the multipolygons become even more broken by mappers trying to handle them.
 

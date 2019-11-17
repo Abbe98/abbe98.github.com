@@ -3,6 +3,8 @@ layout: post
 title: OMap Mapper day four
 description: The OMap Mapper project day four, all the database input done and a Leaflet issue.
 image: https://byabbe.se/assets/default.png
+tags:
+  - omapmapper
 ---
 Day four now! 
 

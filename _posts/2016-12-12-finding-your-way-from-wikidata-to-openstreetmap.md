@@ -3,6 +3,9 @@ layout: post
 title: Finding your way from Wikidata to OpenStreetMap
 description: I wrote a user script to get you from Wikidata to OpenStreetMap.
 image: https://byabbe.se/assets/wikidata-osm-userscript.png
+tags:
+  - wikimedia
+  - openstreetmap
 redirect_from:
   - /blog/2016/12/12/finding-your-way-from-wikidata-to-openstreetmap
 ---

@@ -3,6 +3,8 @@ layout: post
 title: Biocaching Continues 
 description: The Biocaching project is getting great feedback from all over the world.
 image: https://byabbe.se/assets/biocaching-mauritius.jpg
+tags:
+  - biocaching
 ---
 ![photo from a press conference in Port Louis](https://byabbe.se/assets/biocaching-mauritius.jpg)
 

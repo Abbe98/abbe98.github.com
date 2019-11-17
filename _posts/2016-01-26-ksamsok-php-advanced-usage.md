@@ -3,6 +3,9 @@ layout: post
 title: KSamsok PHP Advanced Usage
 description: Learn how to work with Swedish Heritage data in PHP with this advanced example.
 image: https://byabbe.se/assets/soch-logo.jpg
+tags:
+  - soch
+  - code
 ---
 
 This is the second part out of two introducing the KSamsok-PHP API library, the first part is [KSams&ouml;k-PHP: the Basics](https://byabbe.se/blog/2016/01/25/ksamsok-the-basics/).

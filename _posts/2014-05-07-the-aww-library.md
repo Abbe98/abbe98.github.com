@@ -3,6 +3,8 @@ layout: post
 title: The AWW Library
 description: Intruduction to AWW a AJAX Library for minimal AJAX requests within WebWorkers.
 image: https://byabbe.se/assets/default.png
+tags:
+  - code
 ---
 
 I'm not a big fan of jQuery, but I do **many** AJAX calls. Most time I just write the AJAX calls straight into my code, it works fine! :-) Some days ago I did some work with [WebWorkers][1]([Get it, it's good stuff][2]), as in many of my tests I'm adding jQuery to do things just a bit faster(by that I mean my coding speed). I ran into the issue that I can't use jQuery in a WebWorker, and writing it the `XMLHttpRequest` way for all my future WebWorker tests? No thanks. 

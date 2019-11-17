@@ -3,6 +3,8 @@ layout: post
 title: Weekly Update 2
 description: Rendering the Milky way with WebGL in full 3D will be easy when I got a supercomputer.
 image: https://byabbe.se/assets/default.png
+tags:
+  - other
 ---
 Another week and a overkill experiment. So the "huge" space and WebGL related project that I did mention in the [last update][1], was just to huge.
 

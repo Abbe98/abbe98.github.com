@@ -3,6 +3,8 @@ layout: post
 title: Holiday Project Tax Composer
 description: My holiday project Tax Composer comes because of a need for creating custom taxonomy schemes for the Biocaching project.
 image: https://byabbe.se/assets/tax-composer-scr-1.jpg
+tags:
+  - biocaching
 ---
 This winter holiday is coming to a close. I have not only been inaccessible in some mountains cross-country skiing all days, although most people seams to believe so. This holiday I actually had two dedicated "holiday projects", a holiday project is simply projects that goes from idea to launched in a single holiday.
 

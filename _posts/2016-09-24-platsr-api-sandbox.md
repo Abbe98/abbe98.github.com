@@ -3,7 +3,11 @@ layout: post
 title: Platsr API Sandbox
 description: I made a API Sandbox for Platsr.se and introduces basic API accessibility.
 image: https://byabbe.se/assets/p-sandbox1.png
+tags:
+  - code
 ---
+**Update** Platsr.se does no longer exists.
+
 [Platsr.se][0] if you isn't familiar is a web community for gathering local stories and media around different locations. As of a result it got some pretty incredible data users has put a lot of thought into all all available under open licenses.
 
 Platsr also got a API and have been having one for ages, but almost no one has created upon it. If you [take a look at the official documentation][1] you won't find that fact weird(even if you do read Swedish).

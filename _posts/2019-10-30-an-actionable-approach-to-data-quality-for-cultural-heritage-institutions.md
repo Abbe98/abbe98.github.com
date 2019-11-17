@@ -3,6 +3,8 @@ layout: post
 title: An Actionable Approach to Data Quality for Cultural Heritage Institutions
 description: In this post I'm introducing a new data quality portal that we are currently testing with the K-samsöks data partners.
 image: https://byabbe.se/assets/soch-data-portal-main.png
+tags:
+  - soch
 ---
 In this post I'm introducing a new data quality portal that we are currently testing with the K-samsöks data partners. It's a data quality tool without any percentages or metrics.
 

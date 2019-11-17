@@ -3,6 +3,8 @@ layout: post
 title: Weekly Update 3
 description: Another week and more three.js projects.
 image: https://byabbe.se/assets/default.png
+tags:
+  - other
 ---
 All weeks comes to an end, some of them are great weeks the rest is greater weeks. This week has been interesting, I have been working on one of my two major(secret) projects and my head is full of new ideas(as always). [Last week][1] I wrote about my unsuccessful Milky Way project, before I created it I did play around a bit with [Three.js][4] just to try it out. 
 

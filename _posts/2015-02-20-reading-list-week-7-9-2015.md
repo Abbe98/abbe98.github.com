@@ -3,6 +3,8 @@ layout: post
 title: Reading List Week 7/8 2015
 description: Reading list about crazy stuff but still mostly maps.
 image: https://byabbe.se/assets/himlinge2.JPG
+tags:
+  - reading list
 ---
 
 ### Web Development

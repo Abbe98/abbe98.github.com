@@ -3,9 +3,14 @@ layout: post
 title: Github Pages with Cloudflare for SSL support
 description: How I added SSL support to my Github Pages site by using Cloudflare.
 image: https://upload.wikimedia.org/wikipedia/commons/9/9e/Cloudflare-logo-horizontal.svg
+tags:
+  - tips
 redirect_from:
   - /blog/2017/03/31/github-pages-with-cloudflare-for-ssl-support
 ---
+
+**Update** Github now supports SSL for custom domains.
+
 One of the downsides with hosting this site on Github Pages has always been the lack of SSL support. From a SEO perspective it's supposed to be important(I have no clue), it's not a major thing for me people usually do not end up here after a Google search.
 
 The main downside is that there is a bunch of cool (not so)modern web APIs such as Service Workers and Geo-location which does not work on insecure connections.

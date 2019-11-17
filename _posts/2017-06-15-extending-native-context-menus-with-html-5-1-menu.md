@@ -3,6 +3,9 @@ layout: post
 title: Extending Native Context Menus with HTML 5.1 &lt;menu&gt;
 description: I recently played around with Service Workers to learn.
 image: https://byabbe.se/assets/context-menu-2.png
+tags:
+  - web technologies
+  - code
 ---
 One thing that annoys me when using the web is when some developer decided to do `preventDefault()` on `contextmenu` to replace the native context menu with some shitty app specific one, blocking my access to thing such as spellcheck, plugins, and search. It's something I believe should be avoided whenever possible. Therefor I'm a fan of the possibility to extend the native one.
 

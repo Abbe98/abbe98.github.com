@@ -3,6 +3,8 @@ layout: post
 title: Hack4FI and Wikidata
 description: I'm just home from Hack4FI in Helsinki where I was as a part of Wikimedia Finlands Wikidata project.
 image: https://byabbe.se/assets/hack4fi-logo-2016.jpg
+tags:
+  - wikimedia
 ---
 
 ![Hack4FI logo](https://byabbe.se/assets/hack4fi-logo-2016.jpg)

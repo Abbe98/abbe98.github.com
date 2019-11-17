@@ -3,6 +3,8 @@ layout: post
 title: Reading List Week 26 2015
 description: My reading list week 26 2015 contains mostly map and web dev stuff.
 image: https://byabbe.se/assets/flower.JPG
+tags:
+  - reading list
 ---
 
 ### Web Development

@@ -3,6 +3,8 @@ layout: post
 title: OMap Mapper day one
 description: The OMap Mapper project day one, web a11y and maps.
 image: https://byabbe.se/assets/default.png
+tags:
+  - omapmapper
 ---
 So first day with my new OMap Mapper project, and it has been great weather all day, for short I haven't done so much on the application. Still some major things is done.
 

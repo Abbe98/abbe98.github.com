@@ -3,6 +3,8 @@ layout: post
 title: The World Orienteering Championships, Wikipedia, and Commons
 description: How I ran a wiki-project during the World Orienteering Championships.
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/WOC_2016_Relay_flower_ceremony_25.jpg/800px-WOC_2016_Relay_flower_ceremony_25.jpg
+tags:
+  - wikimedia
 redirect_from:
   - /blog/2017/02/02/the-world-orienteering-championships-wikipedia-and-commons
 ---

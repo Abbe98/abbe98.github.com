@@ -3,6 +3,8 @@ layout: post
 title: Reading List Week 33 2015
 description: Week 33 reading list about open source, maps and design.
 image: https://byabbe.se/assets/floda_kyrka_tak.jpg
+tags:
+  - reading list
 ---
 
 ### Design

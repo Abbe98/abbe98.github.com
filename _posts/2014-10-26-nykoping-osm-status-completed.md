@@ -3,6 +3,8 @@ layout: post
 title: Nyköping OSM status completed!
 description: Untill today Nyköping has been having the status of "decent". Now it's "completed".
 image: https://byabbe.se/assets/osm_logo.svg
+tags:
+  - openstreetmap
 ---
 Untill today Nyköping has been having the status of "decent". The list of cities in Sweden and their status can be found on the Wiki([WikiProject Sweden/Cities][1]). After many hours of mapping yesterday, I changed the status to "completed"(for car navigation). The description of the completed status states "All public roads should be mapped. Roads should be tagged with `name` and driving restrictions should be fully mapped.".
 

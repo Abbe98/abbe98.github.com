@@ -3,6 +3,8 @@ layout: post
 title: Biocaching
 description: Biocaching the project which won Hack4NO got a new website.
 image: https://byabbe.se/assets/flower2.JPG
+tags:
+  - biocaching
 ---
 
 [I earlier wrote about BioPin.It, the project which won Hack4NO](https://byabbe.se/blog/2015/07/01/hack4no/). Since then it has been renamed to Biocaching.

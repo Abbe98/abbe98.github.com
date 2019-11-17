@@ -3,6 +3,8 @@ layout: post
 title: Mapping the Past with OpenHistoricalMap and JOSM
 description: Configure JOSM for OpenHistoricalMap and use its powerful tools to improve your mapping.
 image: https://i1190.photobucket.com/albums/z458/abbe98/OHM5_zpsu9qezcya.jpg
+tags:
+  - openhistoricalmap
 ---
 
 JOSM gives you the power to do OpenHistoricalMap mapping offline, use custom filters, use custom base maps without tools like Map Warper and much more.

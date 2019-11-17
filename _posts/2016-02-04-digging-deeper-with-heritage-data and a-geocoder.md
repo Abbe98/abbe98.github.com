@@ -3,6 +3,8 @@ layout: post
 title: Digging Deeper with Heritage Data and a Geocoder
 description: This article describes a reverse geocoding experiment preformed on heritage data. I'm using reverse geocoding to be able to improve location based search.
 image: https://byabbe.se/assets/soch-logo.jpg
+tags:
+  - soch
 ---
 
 This article describes a reverse geocoding experiment preformed on Swedish heritage data provided by the SOCH API. I'm using reverse geocoding and a bit of magic to be able to improve location based search by being able to return items that isn't georefrenced. This practice can be applied on almost any dataset.  

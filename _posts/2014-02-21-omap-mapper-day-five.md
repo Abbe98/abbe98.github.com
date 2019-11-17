@@ -3,6 +3,8 @@ layout: post
 title: OMap Mapper day five
 description: The OMap Mapper project day five, future features and browser support.
 image: https://byabbe.se/assets/default.png
+tags:
+  - omapmapper
 ---
 Day five and the application now works as it should, so tomorrow code cleaning, on Sunday push to Github and on Monday back to school. Now you can register/upload maps, and you can browse them. 
 

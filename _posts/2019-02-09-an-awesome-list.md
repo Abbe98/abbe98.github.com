@@ -3,6 +3,8 @@ layout: post
 title: An Awesome List
 description: I created one of those awesome lists for K-samsök resources.
 image: https://byabbe.se/assets/awesome-ksamsok-list.png
+tags:
+  - soch
 ---
 
 ![sceenshot of list contents](https://byabbe.se/assets/awesome-ksamsok-list.png)

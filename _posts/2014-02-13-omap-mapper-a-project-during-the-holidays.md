@@ -3,6 +3,8 @@ layout: post
 title: OMap Mapper a project during the holidays
 description: OMap Mapper a project for mapping maps, that I will write during my holidays next week.
 image: https://byabbe.se/assets/default.png
+tags:
+  - omapmapper
 ---
 I got holidays next week and I have some work to do on some projects but I want to do something with maps so during the holidays I will work on a new project...
 

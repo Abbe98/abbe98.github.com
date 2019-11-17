@@ -3,6 +3,9 @@ layout: post
 title: KSamsok PHP the Basics
 description: Learn how to work with Swedish Heritage data in PHP.
 image: https://byabbe.se/assets/soch-logo.jpg
+tags:
+  - soch
+  - code
 ---
 
 K-Sams&ouml;k also known as SOCH is an aggregator and API for Swedish culture heritage institutions, it's developed by the [Swedish National Heritage Board](http://www.raa.se/om-riksantikvarieambetet/in-english/) and in the time of writing it has 6,066,262 items indexed.

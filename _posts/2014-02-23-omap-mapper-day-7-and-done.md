@@ -3,6 +3,8 @@ layout: post
 title: OMap Mapper day 7 and done
 description: The OMap Mapper project is now published at Github and free to download.
 image: https://byabbe.se/assets/default.png
+tags:
+  - omapmapper
 ---
 Since some hours back OMap Mapper is published at [Github][1], some hours of coding and 44 commits. 50% PHP, 20% JavaScript and 30% CSS, Github got the commits [graphs][2] for those who is interested. 
 

@@ -3,6 +3,8 @@ layout: post
 title: Night Hawk Recap
 description: What happened to my "most awesome idea in the history of ice cream"?
 image: https://byabbe.se/assets/night-hawk-2.jpg
+tags:
+  - other
 ---
 
 First blog post from my new apartment, moved in earlier today!

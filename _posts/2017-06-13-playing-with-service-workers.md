@@ -3,6 +3,9 @@ layout: post
 title: Playing with Service Workers
 description: I recently played around with Service Workers to learn.
 image: https://byabbe.se/assets/default.png
+tags:
+  - web technologies
+  - code
 ---
 I'm on a learning spree targeting web technologies, recently I played around with [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) adding functionality to some of my existing projects.
 

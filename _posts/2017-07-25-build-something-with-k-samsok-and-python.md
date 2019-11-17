@@ -3,6 +3,9 @@ layout: post
 title: Build Something with K-samsök and Python
 description: I recently got the time to write documentation for KSamsok-PY, now you should build something with it.
 image: https://byabbe.se/assets/soch-logo.jpg
+tags:
+  - soch
+  - code
 ---
 
 Last week I took a day to do a bit of open source maintenance, fixing bugs, writing documentation, tests etc and definitive no new features.

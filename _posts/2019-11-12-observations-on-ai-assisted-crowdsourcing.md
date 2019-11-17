@@ -3,6 +3,10 @@ layout: post
 title: Observations on AI Assisted Crowdsourcing
 description: Observations on AI assisted crowdsourcing during a recent project together with museums in Sweden.
 image: https://byabbe.se/assets/smv-description-translations.png
+tags:
+  - ai
+  - crowdsourcing
+  - wikimedia
 ---
 As a part of the "[Wikimedia Commons Data Roundtripping](https://meta.wikimedia.org/wiki/Wikimedia_Commons_Data_Roundtripping)" project facilitated by me in my role at the Swedish National Heritage Board we ran a pilot together the Swedish Performing Arts Agency around crowdsourcing translations of image descriptions this spring. In this post I'm briefly sharing some of my observations related to how AI assisted translations impacted the crowdsourcing campaign.
 

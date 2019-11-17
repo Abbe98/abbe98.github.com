@@ -3,6 +3,9 @@ layout: post
 title: Another 4 JavaScript projects
 description: Four great open source JavaScript projects you should check out.
 image: https://byabbe.se/assets/js.png
+tags:
+  - tips
+  - code
 ---
 Sometime ago I wrote "[4 JS projects at Github for your web app.][1]" soon after I felt sorry about all the ones I did not write about. So here comes another four JavaScript projects.
 

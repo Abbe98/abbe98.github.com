@@ -3,6 +3,8 @@ layout: post
 title: Weekly Update 1
 description: First hint about a huge space and WEBGL related project.
 image: https://byabbe.se/assets/default.png
+tags:
+  - other
 ---
 Weekly updates on things that's in the works(or at least in thoughts) is something I should try out, mostly because most of my small ideas and experiments never end up being public. Even I I drop a idea or a small project I should share it so someone else who could turn it into something useful.
 

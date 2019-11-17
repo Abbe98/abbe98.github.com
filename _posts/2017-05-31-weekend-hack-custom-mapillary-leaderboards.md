@@ -3,9 +3,14 @@ layout: post
 title: Weekend Hack&#58; Custom Mapillary Leaderboards
 description: Introduction to Custom Mapillary Leaderboards a recent weekend hack that let\'s you create a custom Mapillary leaderboard for your friends or event.
 image: https://byabbe.se/assets/mapillary-custom-leaderboards.png
+tags:
+  - openstreetmap
 redirect_from:
   - /blog/2017/05/31/weekend-hack-custom-mapillary-leaderboards
 ---
+
+**Update** the API this tool used does not exist anymore therefor it's broken.
+
 ![screenshot](https://byabbe.se/assets/mapillary-custom-leaderboards.png)
 
 Last weekend I found some time for some coding for fun and learning. I played around with the basics of the canvas API, a bit more of CSS and visual stuff then I usually do. I ended up creating a [site](https://byabbe.se/Mapillary-Custom-Leaderboards/) that allows Mapillary users to create their own custom leaderboards by just searching for participants and set a optional time frame.

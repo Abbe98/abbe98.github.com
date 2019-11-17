@@ -3,6 +3,9 @@ layout: post
 title: 4 JS projects at Github for your web app
 description: 4 great open source javaScript projects for your web apps.
 image: https://byabbe.se/assets/default.png
+tags:
+  - code
+  - tips
 ---
 
 ### Together.js

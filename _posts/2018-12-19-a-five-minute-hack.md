@@ -3,6 +3,8 @@ layout: post
 title: A Five Minute Hack
 description: I love small ideas and experiments. They are cheap they scale from a few hours to a few moths. With this 5 minute hack I have however set a new record.
 image: https://byabbe.se/assets/Landerydsstenen-KMB.jpg
+tags:
+  - wikimedia
 ---
 Click the link or type [runes.rocks](http://runes.rocks) into your web browser and you will be directed to a random article about a rune inscription or runestone. 
 

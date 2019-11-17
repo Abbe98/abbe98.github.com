@@ -3,6 +3,8 @@ layout: post
 title: Rounding Colors with Colorsnap
 description: Colorsnap is a Python package for snapping/rounding colors to other colors/palettes.
 image: https://byabbe.se/assets/screenshot-gi-raa-color-filter.png
+tags:
+  - code
 ---
 
 While working on an evaluation of Generous Interfaces in the GLAM sector at the Swedish National Heritage Board we extracted colors in images to make them searchable by their palettes. For usability reasons we wanted to limit the extracted colors to a comprehensible palette.

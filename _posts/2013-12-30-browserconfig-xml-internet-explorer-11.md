@@ -3,6 +3,8 @@ layout: post
 title: Browserconfig.xml in Internet Explorer 11
 description: Using browserconfig.xml in Internet Explorer 11 on Windows 8.1.
 image: https://byabbe.se/assets/default.png
+tags:
+  - web technologies
 ---
 Just some days ago a friend wrote to me about a 404 request in Internet Explorer 11 when he was pinning a app to the start screen on Windows 8.1. The app was built with App Ground…
 

@@ -3,6 +3,8 @@ layout: post
 title: OMap Mapper day two
 description: The OMap Mapper project day two, I haven't done anything.
 image: https://byabbe.se/assets/default.png
+tags:
+  - omapmapper
 ---
 Day two and to be honest, the only coding I have been doing was when I made lunch for me and my sister. The thing that I did write was a simple toggle function, to handle the interface, so the page does not haft to reload, when you want to register a new map location/event. Nothing advanced at all for short. 
 

@@ -3,6 +3,8 @@ layout: post
 title: Reading List Week 2 2015
 description: Reading List Week 2 2015
 image: https://byabbe.se/assets/snow.jpg
+tags:
+  - reading list
 ---
 I love reading other peoples reading lists, I think they are a great way for sharing content and finding new sources such as blogs. This is my first reading list I publishing so you will find some of 2014 best content as well.
 

@@ -3,6 +3,8 @@ layout: post
 title: Holiday Project K-Samsök
 description: Showing off my holiday project that is using open data.
 image: https://byabbe.se/assets/bildplats.png
+tags:
+  - soch
 ---
 My Christmas holiday started with me becoming sick, a terrible thing for the planned orienteering and workouts. So I decided to go for a little bigger holiday project the usually.
 

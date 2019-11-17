@@ -3,6 +3,8 @@ layout: post
 title: OpenStreetMap CLC06 Import Cleanup
 description: The CLC06 import made in 2006 hurts the OSM ecosystem.
 image: https://byabbe.se/assets/ways-relations.jpg
+tags:
+  - openstreetmap
 ---
 When I first got involved in OpenStreetMap all my mapping was done in the iD editor, a great user experience for new users easy to work with and tagging made easy. My first experience with iD and OSM was terrible. It was because of a old low quality forest import that covers a huge area, shown below.
 

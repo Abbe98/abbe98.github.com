@@ -3,6 +3,8 @@ layout: post
 title: Winning the Nordic Open Data Challenge
 description: I did attend Slush a week ago, I had a great time, really liked some of the talks and won the Nordic Open Data Challenge.
 image: https://byabbe.se/assets/slush-2015-2.jpg
+tags:
+  - biocaching
 ---
 I did attend Slush a week ago, I had a great time, really liked some of the talks(The best one were by Christopher Fabian UNICEF) meet a lot of people that is both doing interesting things and though what I do is great.
 
