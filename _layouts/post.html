@@ -24,7 +24,7 @@ layout: null
 		<article class="post container">
 			<h2>{{ page.title }}</h2>
 
-			{% if page.type == 'post' %}
+			{% if page.type != 'link' %}
 			{{ content }}
 			<div class="share print-hidden">
 				<a class="tweet-link" href="https://twitter.com/intent/tweet?url=https://byabbe.se{{ page.url }}&text={{ page.title }}%0A">Tweet Something? <span>:-)</span></a>
