@@ -33,48 +33,34 @@ image: https://byabbe.se/assets/default2.png
 			{% for post in paginator.posts %}
 			<article class="post">
 				{% if post.type == 'link' %}
-				<h2><a href="{{ post.external_url }}" title="{{ post.target }}">{{ post.title }} 🔗</a></h2>
+				<h2 class="ts">
+					<a href="{{ post.external_url }}" title="{{ post.target }}">{{ post.title }} 🔗</a>
+				</h2>
 				{% else %}
-				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				<h2 class="ts">
+					<a href="{{ post.url }}">{{ post.title }}</a>
+				</h2>
 				{% endif %}
-				<small class="date">
-					{% assign day = post.date | date: '%d' %}
-					{% case day %}
-						{% when '01', '21', '31' %}
-							{% assign suffix = 'st' %}
-						{% when '02', '22' %}
-							{% assign suffix = 'nd' %}
-						{% when '03', '23' %}
-							{% assign suffix = 'rd' %}
-						{% else %}
-							{% assign suffix = 'th' %}
-					{% endcase %}
-					{{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }}
-				</small>
+				{% include date.html date=post.date %}
 				{{ post.content }}
 			</article>
 			{% endfor %}
 		</div>
-		<section>
-			<div class="btn-container">
+		<div class="ts bs b-y">
+			<p>
 			{% if paginator.next_page %}
-				<a class="btn" href="/blog/page{{paginator.next_page}}">Older</a>
-			{% else %}
-				<span class="btn" aria-hidden="true"  style="transition: none; background: none; color: rgb(247, 247, 242);">Older</span>
+				<a href="/blog/page{{paginator.next_page}}">Older</a>
 			{% endif %}
 			{% if paginator.previous_page %}
 				{% if paginator.page == 2 %}
-					<a class="btn" href="/blog">Newer</a>
-				{% else %} <a class="btn" href="/blog/page{{paginator.previous_page}}">Newer</a>
+					<a href="/blog">Newer</a>
+				{% else %}
+					<a href="/blog/page{{paginator.previous_page}}">Newer</a>
 				{% endif %}
-			{% else %}
-				<span class="btn" aria-hidden="true" style="transition: none; background: none; color: rgb(247, 247, 242);">Newer</span>
 			{% endif %}
-			</div>
-		</section>
-		<footer style="text-align: center;">
-			<p>Copyright <a href="/">Albin Larsson</a> 2013-2019 • <a href="/archive.html">Archive</a> • <a href="/blog/atom.xml">RSS</a></p>
-		</footer>
+			</p>
+		</div>
+		{% include footer.html %}
 
 		<script src="/js/prism.js"></script>
 		<link rel="stylesheet" href="/css/prism.css"/>

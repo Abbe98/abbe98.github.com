@@ -21,21 +21,22 @@ layout: null
 	</head>
 	<body>
 {% include menu.html %}
-		<article class="post container">
-			<h2>{{ page.title }}</h2>
+		<article class="post">
+			<h2 class="ts">{{ page.title }}</h2>
+			{% include date.html date=page.date %}
 
 			{% if page.type != 'link' %}
 			{{ content }}
-			<div class="share print-hidden">
-				<a class="tweet-link" href="https://twitter.com/intent/tweet?url=https://byabbe.se{{ page.url }}&text={{ page.title }}%0A">Tweet Something? <span>:-)</span></a>
-			</div>
 			{% else %}
 			<a href="{{ page.external_url }}">Read this post on {{ page.target }}.</a>
 			{% endif %}
 		</article>
-		<footer style="text-align: center;">
-			<p>Copyright <a href="/">Albin Larsson</a> 2013-2019 • <a href="/archive.html">Archive</a> • <a href="/blog/atom.xml">RSS</a></p>
-		</footer>
+
+		{% if page.type != 'link' %}
+		{% include tweet.html %}
+		{% endif %}
+
+		{% include footer.html %}
 
 		<script src="/js/prism.js"></script>
 		<link rel="stylesheet" href="/css/prism.css"/>

@@ -1,0 +1,14 @@
+<small class="date ts">
+  {% assign day = include.date | date: '%d' %}
+  {% case day %}
+    {% when '01', '21', '31' %}
+      {% assign suffix = 'st' %}
+    {% when '02', '22' %}
+      {% assign suffix = 'nd' %}
+    {% when '03', '23' %}
+      {% assign suffix = 'rd' %}
+    {% else %}
+      {% assign suffix = 'th' %}
+  {% endcase %}
+  {{ include.date | date: '%e' }}{{ suffix }}{{ include.date | date: ' %B %Y' }}
+</small>

@@ -3,25 +3,43 @@ layout: null
 ---
 <!DOCTYPE HTML>
 <html lang="en">
-	<head>
-		<title>Albin Larsson</title>
-		<meta charset="UTF-8"/>
-		<meta name="description" content="Albin Larssons personal space on the web. Albin is a Wikimedian that promotes universal access to information through technology." />
-		<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=5.0"/>
 
-		<link rel="stylesheet" href="css/style.css" />
-		{% include general-icons.html %}
-	</head>
-	<body>
-{% include menu.html %}
-		<div class="landing">
-			<h1 class="uppercase">Albin Larsson</h1>
-			<p>Hi, I promote universal access to information through technology. In addition to my Wikimedia related projects over at the <a href="http://tools.wmflabs.org/hay/directory/#/author/Abbe98">WMF Tool Labs</a> and my public <a href="https://github.com/Abbe98">Github projects</a> I suggest you checkout my <a href="https://byabbe.se/blog/">Blog</a> and some of the sites below.</p>
-			<div>
-				<a href="https://biocaching.com/"><img class="landing" src="assets/biocaching_logo.svg" alt="Biocaching" /></a>
-				<a href="https://kyrksok.se/"><img class="landing" src="assets/kyrksok_logo.svg" alt="Kyrksök" /></a>
-			</div>
-		</div>
-{% include global-javascript.html %}
-	</body>
+<head>
+  <title>Albin Larsson</title>
+  <meta charset="UTF-8" />
+  <meta name="description"
+    content="Albin Larssons personal space on the web. Albin is a Wikimedian that promotes universal access to information through technology." />
+  <meta id="viewport" name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=5.0" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  {% include general-icons.html %}
+</head>
+
+<body>
+  {% include menu.html %}
+  <div class="b-y bs">
+    <div class="inner">
+      <h1>I'm Albin <br> a creative technologist <br> who loves<span style="white-space: pre;"> </span><div class="animated-words"><span>culture</span><span>maps</span><span>code</span></div></h1>
+    </div>
+  </div>
+  <div class="bs">
+    <div class="inner">
+      <p>Say hi! <a href="https://twitter.com/AlbinPCLarsson">twitter</a>, <a href="mailto:albin.post@gmail.com">email</a></p>
+    </div>
+  </div>
+  <div class="b-y bs">
+    <div class="inner">
+      <p>Some posts on my <a href="/blog/">blog</a>:</p>
+      <ul>
+        <li><a href="https://byabbe.se/2018/12/19/a-five-minute-hack">A Five Minute Hack</a></li>
+        <li><a href="https://byabbe.se/2018/08/14/a-web-app-for-browsing-sign-languages-on-wikidata">Browsing Sign Languages on Wikidata</a></li>
+        <li><a href="https://byabbe.se/2019/11/12/observations-on-ai-assisted-crowdsourcing">Observations on AI Assisted Crowdsourcing</a></li>
+        <li><a href="https://byabbe.se/2016/11/28/browsing-georeferenced-maps-on-wikimedia-commons">Browsing Rectified Maps on Wikimedia Commons</a></li>
+      </ul>
+    </div>
+  </div>
+  {% include footer.html %}
+  {% include global-javascript.html %}
+</body>
+
 </html>

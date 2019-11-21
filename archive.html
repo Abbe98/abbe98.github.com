@@ -24,6 +24,7 @@ image: https://byabbe.se/assets/default2.png
 {% include menu.html %}
 		<div class="container">
 			<div class="post">
+				<h2>Archive</h2>
 				<ul class="archive">
 					{% for post in site.posts %}
 					<li class="archive">
@@ -37,9 +38,7 @@ image: https://byabbe.se/assets/default2.png
 				</ul>
 			</div>
 		</div>
-		<footer style="text-align: center;">
-			<p>Copyright <a href="/">Albin Larsson</a> 2013-2019 • <a href="/blog/">Blog</a> • <a href="/blog/atom.xml">RSS</a></p>
-		</footer>
+		{% include footer.html %}
 {% include global-javascript.html %}
 	</body>
 </html>
