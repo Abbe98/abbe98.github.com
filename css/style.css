@@ -145,12 +145,16 @@ a {
 
 .post a:hover,
 .post a:focus,
-.post a:active
-:not(h2 a):hover,
-:not(h2 a):active,
-:not(h2 a):focus {
+.post a:active {
   color: #63615E;
   text-decoration: underline;
+}
+
+.post h2 a:hover,
+.post h2 a:active,
+.post h2 a:focus {
+  text-decoration: none;
+  color: #343e3d;
 }
 
 a.tweet-link {
@@ -179,11 +183,6 @@ a.tweet-link:hover span {
 .post p,
 .post ul {
   font: 18px/1.6 Helvetica, Arial, sans-serif;
-}
-
-.post a,
-:not(.post h2 a) {
-  text-decoration: underline;
 }
 
 .date {
