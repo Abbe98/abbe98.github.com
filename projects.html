@@ -1,0 +1,84 @@
+---
+layout: null
+title: Projects
+description: Albin Larssons personal projects on the web. Albin is a Wikimedian that promotes universal access to information through technology.
+image: https://byabbe.se/assets/default2.png
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=5.0"/>
+		<meta name="google-site-verification" content="ggbSb9CvyxZ8PpDwiViwiTeoswb37GKsWGMr7a6Nzew"/>
+		<title>{{ page.title }}</title>
+
+		<meta name="description" content="{{ page.description }}"/>
+		<meta property="og:image" content="{{ page.image }}"/>
+		<meta property="og:description" content="{{ page.description }}"/>
+
+		<link rel="alternate" type="application/rss+xml" href="/blog/atom.xml" title="Albin Larssons Blog"/>
+		{% include general-icons.html %}
+		<link rel="stylesheet" href="/css/style.css"/>
+	</head>
+	<body>
+{% include menu.html %}
+		<div class="container">
+			<div class="post">
+				<h1>Projects</h1>
+				<div class="projects">
+					<div>
+						<div class="b-y">
+							<img src="http://placekitten.com/g/300/150" />
+							<h2>Project XYZ</h2>
+							<p>Projects XYZ is a home to stuff and whatever.</p>
+							<a href="#">Website</a><a href="#">Blog post</a>
+						</div>
+					</div>
+					<div>
+						<div>
+							<img src="http://placekitten.com/g/300/150" />
+							<h2>Project XYZ</h2>
+							<p>Projects XYZ is a home to stuff and whatever.</p>
+							<a href="#">Website</a><a href="#">Blog post</a>
+						</div>
+					</div>
+					<div>
+						<div>
+							<img src="http://placekitten.com/g/300/150" />
+							<h2>Project XYZ</h2>
+							<p>Projects XYZ is a home to stuff and whatever.</p>
+							<a href="#">Website</a><a href="#">Blog post</a>
+						</div>
+					</div>
+					<div>
+						<div class="b-y">
+							<img src="http://placekitten.com/g/300/150" />
+							<h2>Project XYZ</h2>
+							<p>Projects XYZ is a home to stuff and whatever.</p>
+							<a href="#">Website</a><a href="#">Blog post</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<style>
+			.projects {
+				display: flex;
+				flex-wrap: wrap;
+				box-sizing: border-box;
+			}
+
+			.projects>div {
+				box-sizing: border-box;
+				width: 50%;
+				padding: 5px;
+			}
+
+			.projects img {
+				width: 100%;
+			}
+		</style>
+		{% include footer.html %}
+{% include global-javascript.html %}
+	</body>
+</html>
