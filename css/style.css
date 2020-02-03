@@ -269,7 +269,7 @@ pre {
   position: relative;
 }
 
-.inner div {
+.projects .inner div {
   display: flex;
   justify-content: space-around;
   width: 100%;
