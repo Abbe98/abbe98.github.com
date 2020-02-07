@@ -8,7 +8,7 @@ tags:
 ---
 I haven't done a weekly reading list on this blog since high school; this week I did for a mysterious unknown reason. Alternative title\: Links with random mumblings.
 
-### GLAM and MuseTech
+### GLAM and Museum Tech
 
  - [Building Wellcome Collection’s new archival storage service](https://stacks.wellcomecollection.org/building-wellcome-collections-new-archival-storage-service-3f68ff21927e) – Two too common issues: filenames consisting of identifiers that are forgotten sice long ago and file verification. Current efforts will save future developers and archivists at Wellcome one headache or two.
  - [Someone used neural networks to upscale a famous 1896 video to 4k quality](https://arstechnica.com/science/2020/02/someone-used-neural-networks-to-upscale-a-famous-1896-video-to-4k-quality/) – I have had the pleasure to work a bit with colorization and upscaling at work. It raises interesting questions about authenticity.
