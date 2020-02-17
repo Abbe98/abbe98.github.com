@@ -129,6 +129,7 @@ code:not([class*="language-"]) {
   border-radius: 3px;
   white-space: pre;
   padding: 0px 3px;
+  font-size: 18px;
 }
 
 .uppercase {
