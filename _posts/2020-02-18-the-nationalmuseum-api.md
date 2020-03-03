@@ -16,7 +16,7 @@ The API is able to return specific objects as well as returning all objects thro
 ### Retrieving an object
 
 ```
-https://api.nationalmuseum.se/api/objects?id=3618
+https://api.nationalmuseum.se/api/objects/4000
 ```
 Check.
 
