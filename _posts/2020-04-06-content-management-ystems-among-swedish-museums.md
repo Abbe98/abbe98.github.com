@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Content Management System's Among Swedish Museums
-description: 370 Swedish museum websites and what Content Management system that powers them.
+title: Content Management Systems Among Swedish Museums
+description: 370 Swedish museum websites and what Content Management System that powers them.
 image: https://byabbe.se/assets/cms-museums-sweden.svg
 tags:
   - museum
