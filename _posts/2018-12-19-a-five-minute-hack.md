@@ -5,6 +5,7 @@ description: I love small ideas and experiments. They are cheap they scale from 
 image: https://byabbe.se/assets/Landerydsstenen-KMB.jpg
 tags:
   - wikimedia
+  - runes
 ---
 Click the link or type [runes.rocks](http://runes.rocks) into your web browser and you will be directed to a random article about a rune inscription or runestone. 
 
