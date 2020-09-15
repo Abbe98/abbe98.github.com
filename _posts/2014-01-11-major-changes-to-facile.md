@@ -2,7 +2,6 @@
 layout: post
 title: Major changes to Facile
 description: Facile Framework could become a CSS prototyping framework.
-image: https://byabbe.se/assets/default.png
 tags:
   - other
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: On my board
 description: Projects I works/worked on during 2013.
-image: https://byabbe.se/assets/default.png
 tags:
   - other
 ---

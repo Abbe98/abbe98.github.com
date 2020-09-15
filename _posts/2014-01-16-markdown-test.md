@@ -2,7 +2,6 @@
 layout: post
 title: Markdown Test
 description: Test case for Markdown on this blog.
-image: https://byabbe.se/assets/default.png
 tags:
   - other
 ---

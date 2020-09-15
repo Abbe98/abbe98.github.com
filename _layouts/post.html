@@ -9,9 +9,9 @@ layout: null
 		<meta name="google-site-verification" content="ggbSb9CvyxZ8PpDwiViwiTeoswb37GKsWGMr7a6Nzew"/>
 		<title>{{ page.title }}</title>
 
-		{% if page.type == 'post' %}
+		{% if page.layout == 'post' %}
 		<meta name="description" content="{{ page.description }}"/>
-		<meta property="og:image" content="{{ page.image }}"/>
+		{% if page.image %}<meta property="og:image" content="{{ page.image }}"/>{% endif %}
 		<meta property="og:description" content="{{ page.description }}"/>
 		{% endif %}
 

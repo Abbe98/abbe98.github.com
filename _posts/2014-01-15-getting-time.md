@@ -2,7 +2,6 @@
 layout: post
 title: Getting time
 description: Getting time is quite hard some times.
-image: https://byabbe.se/assets/default.png
 tags:
   - other
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: Playing with Service Workers
 description: I recently played around with Service Workers to learn.
-image: https://byabbe.se/assets/default.png
 tags:
   - web technologies
   - code

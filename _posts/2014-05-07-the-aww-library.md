@@ -2,7 +2,6 @@
 layout: post
 title: The AWW Library
 description: Intruduction to AWW a AJAX Library for minimal AJAX requests within WebWorkers.
-image: https://byabbe.se/assets/default.png
 tags:
   - code
 ---

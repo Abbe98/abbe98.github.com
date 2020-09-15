@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Revisiting a Project with Serverless
-description: I'm revisiting an old project to experiment with serverless infrastructure.
-image: https://byabbe.se/assets/default.png
+description: I'm revisiting an old project to experiment with serverless infrastructure
 tags:
   - runes
   - code

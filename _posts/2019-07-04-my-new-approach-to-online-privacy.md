@@ -2,7 +2,6 @@
 layout: post
 title: My new approach to online privacy
 description: My new approach to online privacy and the issues that lead me to these new actions.
-image: https://byabbe.se/assets/default.png
 tags:
   - privacy
   - methodology

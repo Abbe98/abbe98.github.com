@@ -2,7 +2,6 @@
 layout: post
 title: Board as open source
 description: The javaScript core behind the application Board is now open source.
-image: https://byabbe.se/assets/default.png
 tags:
   - other
 ---

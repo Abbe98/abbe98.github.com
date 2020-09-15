@@ -2,7 +2,6 @@
 layout: post
 title: Reading List Week 5/6 2015
 description: My reading list includes psychology, maps and programming.
-image: https://byabbe.se/assets/default.png
 tags:
   - reading list
 ---

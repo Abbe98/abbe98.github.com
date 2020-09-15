@@ -2,7 +2,6 @@
 layout: post
 title: Up and running!
 description: Albin Larssons blog about web development, open data web accessibility and maps is now live.
-image: https://byabbe.se/assets/default.png
 tags:
   - other
 ---

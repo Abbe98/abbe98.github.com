@@ -2,7 +2,6 @@
 layout: post
 title: Norway Open data and Night Hawk
 description: In august I'm going to Holmenkollen in Norway to participate in the orienteering relay Night Hawk and last year the Norwegian government decided to release tons of Geo data.
-image: https://byabbe.se/assets/default.png
 tags:
   - other
 ---
