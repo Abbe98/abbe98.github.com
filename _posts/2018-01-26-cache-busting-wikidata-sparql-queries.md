@@ -13,15 +13,15 @@ tags:
 
 Whenever you write a Wikidata query form which you do not expect the result to be the same each time, you will run into the issue of caching. Lets take the following example, returning a random cat\:
 
-```
-SELECT ?item ?itemLabel (MD5(CONCAT(STR(?item), STR(RAND()))) as ?random)
+<pre><code class="language-sparql">SELECT ?item ?itemLabel (MD5(CONCAT(STR(?item), STR(RAND()))) as ?random)
 WHERE 
 {
   ?item wdt:P31 wd:Q146.
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE], en". }
 } ORDER BY ?random 
 LIMIT 1
-```
+</code></pre>
+
 [Run in the Wikidata Query Editor](http://tinyurl.com/yd4cpfrn)
 
 If you run this once you will get a random cat if you run this twice you will get the same random cat. 
@@ -34,8 +34,7 @@ A solution some people uses is to "just add a space somewhere", this is possible
 
 When used in implementations keeping track of spaces is not an option so I decided to use random comments that could be generated from hashing functions etc\:
 
-```
-#01e8c03a6bdfe392431d8189130fcfc0
+<pre><code class="language-sparql">#01e8c03a6bdfe392431d8189130fcfc0
 SELECT ?item ?itemLabel (MD5(CONCAT(STR(?item), STR(RAND()))) as ?random)
 WHERE 
 {
@@ -43,7 +42,7 @@ WHERE
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE], en". }
 } ORDER BY ?random 
 LIMIT 1
-```
+</code></pre>
 
 Changing the comment string and rerunning the query will result in an new random cat.
 
