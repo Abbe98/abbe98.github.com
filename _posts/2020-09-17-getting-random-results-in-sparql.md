@@ -4,6 +4,7 @@ title: Getting Random Results in SPARQL
 description: I explain how to get random results from a SPARQL endpoint and why it is as tricky as it is.
 tags:
   - sparql
+  - wikimedia
 ---
 Just the other day I decided to take a stab at [an old StackOverflow questing about getting random results from SPARQL](https://stackoverflow.com/questions/5677340/how-to-select-random-dbpedia-nodes-from-sparql/63909084#answer-63909084).
 
