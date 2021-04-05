@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Digging Deeper with Heritage Data and a Geocoder
-description: This article describes a reverse geocoding experiment preformed on heritage data. I'm using reverse geocoding to be able to improve location based search.
+description: This article describes a reverse geocoding experiment preformed on heritage data. I'm using reverse geocoding to be able to improve location-based search.
 image: https://byabbe.se/assets/soch-logo.jpg
 tags:
   - soch
 ---
 
-This article describes a reverse geocoding experiment preformed on Swedish heritage data provided by the SOCH API. I'm using reverse geocoding and a bit of magic to be able to improve location based search by being able to return items that isn't georefrenced. This practice can be applied on almost any dataset.  
+This article describes a reverse geocoding experiment preformed on Swedish heritage data provided by the SOCH API. I'm using reverse geocoding and a bit of magic to be able to improve location-based search by being able to return items that isn't georefrenced. This practice can be applied on almost any dataset.  
 
 **A friend of mine pointed out** that this could be achieved by selecting location names using a usual bounding box. The reason I decided to go with reverse geocoding(expect the fact that's more fun) is that it's more flexible, you can use it along a path or just with a single point without building some rubbish estimated bounding box.
 
-SOCH contains about 1.6 million georefrenced object all accessible from a map, but if you are doing research on a location you will need more then just the georefrenced objects. You will probably end up making a few searches(both free text and location text) on multiply place names in addition to your bounding box search.
+SOCH contains about 1.6 million georefrenced objects, all accessible from a map, but if you are doing research on a location you will need more than just the georefrenced objects. You will probably end up making a few searches(both free text and location text) on multiply place names in addition to your bounding box search.
 
 All those searches can be automated from the bounding box search.
 
@@ -43,8 +43,8 @@ The relevant bounding box for the urban area returned **13 results**.
 
 It should be noted that the difference in results between the non-urban and the urban area is affected by the fact that the area covered is much larger for the non-urban area as a result of the density of place names.
 
-Although using a reverse geocoder often gave more irrelevant results then relevant ones this is definitely a improved way for searching, manual searches would always give the same irrelevance and much of the irrelevant objects can be sorted out with simple techniques. Using this and a few other tricks has really help me when I have been looking of content deep into the oceans of data. 
+Although using a reverse geocoder often gave more irrelevant results than relevant ones this is definitely an improved way for searching, manual searches would always give the same irrelevance and much of the irrelevant objects can be sorted out with simple techniques. Using this and a few other tricks has really help me when I have been looking of content deep into the oceans of data. 
 
-I should also note that each location query ended up with eleven HTTP requests to the Kringla.nu MediaRSS interface(cheaty way of using the SOCH API), but if such a search feature would be added into the actual API it would not be super heavy(at least not for you the client).
+I should also note that each location query ended up with eleven HTTP requests to the Kringla.nu MediaRSS interface(cheaty way of using the SOCH API), but if such a search feature would be added to the actual API it would not be super heavy(at least not for you, the client).
 
-I'm heading to Helsinki tomorrow for Hack4FI - hack your heritage, as a part of Wikimedia Finlands Wikidata project and you should defiantly catch me if you want to chat about linked data or something else!
+I'm heading to Helsinki tomorrow for Hack4FI - hack your heritage, as a part of Wikimedia Finlands Wikidata project, and you should defiantly catch me if you want to chat about linked data or something else!
