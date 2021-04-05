@@ -16,29 +16,36 @@ layout: null
 </head>
 
 <body>
-  {% include menu.html %}
-  <div class="b-y bs">
-    <div class="inner">
-      <h1>I'm Albin <br> a creative technologist <br> who loves<span style="white-space: pre;"> </span><div class="animated-words"><span>culture</span><span>maps</span><span>ice cream</span></div></h1>
-    </div>
-  </div>
-  <div class="bs">
-    <div class="inner">
-      <p>Say hi! <a href="https://twitter.com/AlbinPCLarsson">twitter</a>, <a href="mailto:albin.post@gmail.com">email</a></p>
-    </div>
-  </div>
-  <div class="b-y bs">
-    <div class="inner">
-      <p>Some posts on my <a href="/blog/">blog</a>:</p>
-      <ul>
-        <li><a href="https://byabbe.se/2018/12/19/a-five-minute-hack">A Five Minute Hack</a></li>
-        <li><a href="https://byabbe.se/2018/08/14/a-web-app-for-browsing-sign-languages-on-wikidata">Browsing Sign Languages on Wikidata</a></li>
-        <li><a href="https://byabbe.se/2019/11/12/observations-on-ai-assisted-crowdsourcing">Observations on AI Assisted Crowdsourcing</a></li>
-        <li><a href="https://byabbe.se/2016/11/28/browsing-georeferenced-maps-on-wikimedia-commons">Browsing Rectified Maps on Wikimedia Commons</a></li>
-      </ul>
-    </div>
-  </div>
+  {% assign menu_title = "<h1>Albin Larsson</h1>" %}
+  {% include menu.html menu_title=menu_title %}
+
+  <main>
+    <h2>Hey!</h2>
+
+    <p>I'm Albin a Wikimedian and creative coder hacking on climate and cultural heritage data. You can reach me on <a
+        href="https://twitter.com/AlbinPCLarsson">Twitter</a>, <a href="https://t.me/Abbe98">Telegram</a>, or by <a href="mailto:albin.post@gmail.com">email</a>.</p>
+
+
+    <h2>Things I do right now</h2>
+    <!--<p>I'm an award winning coder and entrepreneur, a former teenage government employee... My past however is not as interesting as what I'm up to!</p>-->
+    <p>I talk and edit Wikidata on <a href="https://www.youtube.com/channel/UCa5oYsCabGo7XwwKGqo7Qcw">Wikipedia Weekly</a>, I write about code and metadata on my <a
+        href="/blog/">blog</a><!--, I talk at <a href="#">events</a>-->, I contribute to <a href="https://github.com/abbe98">open source</a>, and I'm
+      building something!</p>
+
+    <h2>Some posts from my blog</h2>
+    <ul>
+      <li><a href="https://byabbe.se/2019/11/12/observations-on-ai-assisted-crowdsourcing">Observations on AI Assisted
+        Crowdsourcing</a></li>
+      <li><a href="https://byabbe.se/2018/12/19/a-five-minute-hack">A Five Minute Hack</a></li>
+      <li><a href="https://byabbe.se/2018/08/14/a-web-app-for-browsing-sign-languages-on-wikidata">Browsing Sign
+          Languages on Wikidata</a></li>
+      <li><a href="https://byabbe.se/2016/11/28/browsing-georeferenced-maps-on-wikimedia-commons">Browsing Rectified
+          Maps on Wikimedia Commons</a></li>
+    </ul>
+  </main>
+
   {% include footer.html %}
+  {% include network_animation.html %}
   {% include global-javascript.html %}
 </body>
 

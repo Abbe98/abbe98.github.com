@@ -16,15 +16,19 @@ image: https://byabbe.se/assets/default2.png
 		<meta property="og:image" content="{{ page.image }}"/>
 		<meta property="og:description" content="{{ page.description }}"/>
 
-		<link rel="alternate" type="application/rss+xml" href="/blog/atom.xml" title="Albin Larssons Blog"/>
 		{% include general-icons.html %}
 		<link rel="stylesheet" href="/css/style.css"/>
 	</head>
-	<body class="b-y">
-        <h1 style="text-align: center;font-size: 400%;">404</h1>
-        <blockquote style="font-size: 200%; max-width: 700px; margin: auto;">
-            <p>Always watch where you are going. Otherwise, you may step on a piece of the Forest that was left out by mistake.</p>
-            <footer>- Winnie-the-Pooh</footer>
-        </blockquote>
+	<body>
+		{% assign menu_title = "<h1>Albin Larsson: 404</h1>" %}
+		{% include menu.html menu_title=menu_title %}
+		<main>
+		<blockquote>
+			<p>Always watch where you are going. Otherwise, you may step on a piece of the Forest that was left out by mistake.</p>
+			<footer>- Winnie-the-Pooh</footer>
+		</blockquote>
+		</main>
+		{% include network_animation.html %}
+		{% include footer.html %}
 	</body>
 </html>

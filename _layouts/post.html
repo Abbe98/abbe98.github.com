@@ -20,9 +20,10 @@ layout: null
 		<link rel="stylesheet" href="/css/style.css"/>
 	</head>
 	<body>
-{% include menu.html %}
+		{% assign menu_title = '<h2 class="h1">byabbe.se: Blog</h2>' %}
+		{% include menu.html menu_title=menu_title %}
 		<article class="post">
-			<h2 class="ts">{{ page.title }}</h2>
+			<h1>{{ page.title }}</h1>
 			{% include date.html date=page.date %}
 
 			{% if page.type != 'link' %}
@@ -33,28 +34,28 @@ layout: null
 		</article>
 
 		{% if page.type != 'link' %}
-			{% include tweet.html %}
+			<div class="print-hidden post">
+				<p>
+					<a class="tweet-link" href="https://twitter.com/intent/tweet?url=https://byabbe.se{{ page.url }}&text={{ page.title }}">Tweet this?</a>
+				</p>
 
-			<div class="bs print-hidden">
-				<div class="inner">
-					{% comment %} todo this will break if the posts does not share any tags {% endcomment %}
-					<p>Other posts</p>
-					<ul>
-					{% assign counter = 0 %}
-					{% for tag in page.tags %}
-						{% for post in site.posts %}
-							{% if post.tags contains tag and post.id != page.id and counter < 3 %}
-								{% assign counter = counter | plus:1 %}
-								<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-							{% endif %}
-						{% endfor %}
+				{% comment %} todo this will break if the posts does not share any tags {% endcomment %}
+				<p>Related posts</p>
+				<ul>
+				{% assign counter = 0 %}
+				{% for tag in page.tags %}
+					{% for post in site.posts %}
+						{% if post.tags contains tag and post.id != page.id and counter < 3 %}
+							{% assign counter = counter | plus:1 %}
+							<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% endif %}
 					{% endfor %}
-					</ul>
-				</div>
+				{% endfor %}
+				</ul>
 			</div>
 		{% endif %}
 
-		{% include footer.html class="b-y" %}
+		{% include footer.html %}
 
 		<script src="/js/prism.js"></script>
 		<link rel="stylesheet" href="/css/prism.css"/>

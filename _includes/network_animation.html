@@ -1,0 +1,47 @@
+<svg aria-hidden="true" width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <line class="l1" x1="150" y1="300" x2="200" y2="200" stroke="#00e" stroke-width="3" />
+  <line class="l2" x1="200" y1="200" x2="300" y2="160" stroke="#00e" stroke-width="3" />
+  <line class="l3" x1="200" y1="200" x2="190" y2="140" stroke="#00e" stroke-width="3" />
+  <line class="l3" x1="200" y1="200" x2="140" y2="200" stroke="#00e" stroke-width="3" />
+  <circle class="a-g c1" cx="200" cy="200" fill="#00e" />
+  <circle class="a-g c2" cx="190" cy="140" fill="#00e" />
+  <circle class="a-g c2" cx="140" cy="200" fill="#00e" />
+</svg>
+<style>
+  @media only screen and (max-width: 700px) {
+    svg { display: none }
+  }
+
+  svg {
+    position: absolute;
+    right: 0;
+    bottom: 0
+  }
+
+  .l1 {
+    animation: draw 2s linear forwards;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200
+  }
+
+  .l2 {
+    animation: draw 1s linear forwards;
+    animation-delay: 1.5s;
+    stroke-dasharray: 190;
+    stroke-dashoffset: 190
+  }
+
+  .l3 {
+    animation: draw 1s linear forwards;
+    animation-delay: 1.5s;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100
+  }
+
+  .a-g { animation: grow .5s linear forwards }
+  .c1 { animation-delay: 1.5s }
+  .c2 { animation-delay: 2s }
+
+  @keyframes draw { to { stroke-dashoffset: 0% } }
+  @keyframes grow { to { r: 10px } }
+</style>
