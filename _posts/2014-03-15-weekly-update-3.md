@@ -16,7 +16,7 @@ So just because I like weird perspectives and needed to test Three.js and some p
 
 [Source at Github][2]
 
-[1]: https://byabbe.se/blog/2014/03/07/weekly-update-2/
+[1]: https://byabbe.se/2014/03/07/weekly-update-2/
 [2]: https://github.com/Abbe98/Inside-Equirectangular-Earth
 [3]: https://byabbe.se/Inside-Equirectangular-Earth/
 [4]: http://threejs.org

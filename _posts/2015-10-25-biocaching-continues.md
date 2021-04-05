@@ -8,7 +8,7 @@ tags:
 ---
 ![photo from a press conference in Port Louis](https://byabbe.se/assets/biocaching-mauritius.jpg)
 
-Twice before has I been writing about Biocaching, [first when we won Hack4no](https://byabbe.se/blog/2015/07/01/hack4no) [then again when we relaunched the idea under the new name](https://byabbe.se/blog/2015/08/17/biocaching/) with a new website.
+Twice before has I has been writing about Biocaching, [first when we won Hack4no](https://byabbe.se/2015/07/01/hack4no) [then again when we relaunched the idea under the new name](https://byabbe.se/2015/08/17/biocaching/) with a new website.
 
 Since then we got to the Citizen Science Challenge hosted by UNEP/Eye on Earth Alliance. Bj&oslash;rn and Alice went to Abu Dhabi and got a lot of great feedback. 
 
@@ -22,4 +22,4 @@ Jacqueline McGlade Chief Scientist UNEP also had some thoughts about our project
 
 <iframe src="https://player.vimeo.com/video/142044303?color=ff8800&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-That's somethings that happened recently, up next is Slush in Helsinki. We would love to meet and talk open data and crowd sourcing!
+That's somethings that happened recently, up next is Slush in Helsinki. We would love to meet and talk open data and crowdsourcing!

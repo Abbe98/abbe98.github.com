@@ -10,7 +10,7 @@ I did attend Slush a week ago, I had a great time, really liked some of the talk
 
 ![Photo from Christopher Fabian(UNICEF)s talk](https://byabbe.se/assets/slush-2015-1.jpg)
 
-The reason I got to Slush is as frequent readers of this blog know were the Nordic Open Data Challenge that the Biocaching project participated in(previous posts about Biocaching, [1](https://byabbe.se/blog/2015/07/01/hack4no/), [2](https://byabbe.se/blog/2015/08/17/biocaching/), [3](https://byabbe.se/blog/2015/10/25/biocaching-continues/)). 
+The reason I got to Slush is as frequent readers of this blog know were the Nordic Open Data Challenge that the Biocaching project participated in(previous posts about Biocaching, [1](https://byabbe.se/2015/07/01/hack4no/), [2](https://byabbe.se/2015/08/17/biocaching/), [3](https://byabbe.se/2015/10/25/biocaching-continues/)). 
 
 Biocaching ended up being one of the three winning projects together width [Humans4Oceans](http://www.humansforocean.com/) and SpaceInvaders. I'm a fan of all project at the same time as I believe that all projects has major issues that has to be overcome.
 

@@ -6,7 +6,7 @@ image: https://byabbe.se/assets/osm-ways-relations.jpg
 tags:
   - openstreetmap
 ---
-[In January I proposed](https://byabbe.se/blog/2015/01/05/openstreetmap-clc06-import-cleanup/) cleaning up a lot of imported CLC06 data manually to preserve the OSM ecosystem. Mappers had a hard time working with the large multipolygons and tools such as Tilemill/Mapbox Studio/iD all had rendering issues. Because of those issues the multipolygons become even more broken by mappers trying to handle them.
+[In January I proposed](https://byabbe.se/2015/01/05/openstreetmap-clc06-import-cleanup/) cleaning up a lot of imported CLC06 data manually to preserve the OSM ecosystem. Mappers had a hard time working with the large multipolygons and tools such as Tilemill/Mapbox Studio/iD all had rendering issues. Because of those issues the multipolygons become even more broken by mappers trying to handle them.
 
 The two main multipolygons had areas about 80x120KM.
 

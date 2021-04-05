@@ -37,12 +37,12 @@ The `<picture>` element haven't seen the daylight yet, hopefully we will see it 
 
 [Github][9]
 
-[1]: https://byabbe.se/blog/2013/12/06/4-js-projects-for-your-web-app/
+[1]: https://byabbe.se/2013/12/06/4-js-projects-for-your-web-app/
 [2]: https://github.com/adobe/brackets
 [3]: https://github.com/janl/mustache.js/
 [4]: http://lab.ejci.net/favico.js/
 [5]: https://github.com/ejci/favico.js
-[6]: https://byabbe.se/blog/2014/01/17/board-as-open-source/
-[7]: https://byabbe.se/blog/2014/01/21/app-ground-1-3-0/
+[6]: https://byabbe.se/2014/01/17/board-as-open-source/
+[7]: https://byabbe.se/2014/01/21/app-ground-1-3-0/
 [8]: https://github.com/jeresig/jquery.hotkeys
 [9]: https://github.com/BBC-News/Imager.js

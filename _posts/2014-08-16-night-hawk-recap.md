@@ -29,5 +29,5 @@ Can you find me in the fourth picture?
 
 All above photos by [Aapo Laiho][2].
 
-[1]: https://byabbe.se/blog/2014/06/23/norway-open-data-and-night-hawk
+[1]: https://byabbe.se/2014/06/23/norway-open-data-and-night-hawk
 [2]: https://www.facebook.com/aapo.laiho

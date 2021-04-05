@@ -125,11 +125,11 @@ $uriString = $kSamsok->uriFormat('shm/site/18797', 'xmlurl');</code></pre>
 
 This would result in the string `http://kulturarvsdata.se/shm/site/xml/18797` being returned. The first parameter is simply the item URI or URL. The second parameter sets the type of URI or URL to be returned([see the documentation](https://byabbe.se/ksamsok-php/#uri)). By setting a third optional parameter to `true` you can trigger validation of the URI(returns `false` if invalid).
 
-That's the basic usage of KSams&ouml;k-PHP in part two we extend its features using its protected methods to be able to take advantage of all K-Sams&ouml;ks powerful native methods.
+That's the basic usage of KSams&ouml;k-PHP in part two we will extend its features using its protected methods to be able to take advantage of all K-Sams&ouml;ks powerful native methods.
 
 Previous posts about K-Sams&ouml;k and heritage data\:
 
- - [Enabling CORS in SOCH with a Proxy on Google App Engine, November 2015](https://byabbe.se/blog/2015/11/24/enabling-cors-in-soch-with-a-proxy-on-google-app-engine/)
- - [Mapping the Past with Linked Data in OpenHistoricalMap, Mars 2015](https://byabbe.se/blog/2015/03/26/mapping-the-past-with-linked-data-in-openhistoricalmap/)
- - [Mapping the Past with OpenHistoricalMap and JOSM, Mars 2015](https://byabbe.se/blog/2015/03/03/mapping-the-past-with-openhistoricalmap-and-josm/)
- - [Holiday Project K-Sams&ouml;k, January 2015](https://byabbe.se/blog/2015/01/07/holiday-project-ksamsok/)
+ - [Enabling CORS in SOCH with a Proxy on Google App Engine, November 2015](https://byabbe.se/2015/11/24/enabling-cors-in-soch-with-a-proxy-on-google-app-engine/)
+ - [Mapping the Past with Linked Data in OpenHistoricalMap, Mars 2015](https://byabbe.se/2015/03/26/mapping-the-past-with-linked-data-in-openhistoricalmap/)
+ - [Mapping the Past with OpenHistoricalMap and JOSM, Mars 2015](https://byabbe.se/2015/03/03/mapping-the-past-with-openhistoricalmap-and-josm/)
+ - [Holiday Project K-Sams&ouml;k, January 2015](https://byabbe.se/2015/01/07/holiday-project-ksamsok/)
