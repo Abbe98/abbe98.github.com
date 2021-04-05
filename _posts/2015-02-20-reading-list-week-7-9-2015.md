@@ -12,8 +12,8 @@ tags:
  - [Design Last](http://www.smashingmagazine.com/2015/02/20/design-last/) - CSS isn't content!
  - [EXPLORING NEW TURF](http://odoe.net/blog/exploring-new-turf/) - we will all use Turf, because we are lazy.
  - [Getting Started with the Speech Synthesis API](http://blog.teamtreehouse.com/getting-started-speech-synthesis-api) - I'm maybe not the only one that want to listen to content while reading something else(PowerLearningX2).
- - [A look at Mapbox’ vector tiles](http://labs.kartverket.no/mapbox-gl-vektorfliser/) - Karverket is trying Mapbox GL(Norwegian).
- - [Customization and support for arbitrary feature types in iD](https://www.mapbox.com/blog/customizing-id/) - it's now much easier to turn iD into your own map editor!
+ - [A look at Mapbox’ vector tiles](https://web.archive.org/web/20160826110236/http://labs.kartverket.no/mapbox-gl-vektorfliser/) - Karverket is trying Mapbox GL(Norwegian).
+ - [Customization and support for arbitrary feature types in iD](https://web.archive.org/web/20170218122433/https://www.mapbox.com/blog/customizing-id/) - it's now much easier to turn iD into your own map editor!
 
 
 ### Other Programming
@@ -25,7 +25,7 @@ tags:
 
 ### Maps
 
- - [Formge Lantm&auml;teriets data med CartoCSS](http://hkartor.se/2014/formge-lantmateriets-data-med-cartocss/) - working with text labels in TileMill(Swedish).
+ - [Formge Lantm&auml;teriets data med CartoCSS](https://web.archive.org/web/20150815154538/http://hkartor.se/2014/formge-lantmateriets-data-med-cartocss/) - working with text labels in TileMill(Swedish).
  - [GSD-H&ouml;jddata, Grid 50+](http://www.lantmateriet.se/en/Maps-and-geographic-information/Elevation-data-/GSD-Hojddata-grid-50-/) - the old height dataset(+-2 meter) for Sweden is going open data this summer!
  - [Routing on Openstreetmap.org](https://blog.openstreetmap.org/2015/02/16/routing-on-openstreetmap-org/) - routing is now available directly on the OpenStreetMap homepage.
 

@@ -10,7 +10,7 @@ tags:
 ### Design
 
  - [Designing Web Interfaces For Kids](http://www.smashingmagazine.com/2015/08/designing-web-interfaces-for-kids/)
- - [The Hamburger Menu Doesn't Work](http://deep.design/the-hamburger-menu/)
+ - [The Hamburger Menu Doesn't Work](https://web.archive.org/web/20160323064927/http://deep.design/the-hamburger-menu/)
  - [In Praise of the AK-47](https://deardesignstudent.com/in-praise-of-the-ak-47-a24cc8a46c13)
  - [Canvas Animation](http://www.macwright.org/2015/08/14/canvas-animation-methods.html)
 

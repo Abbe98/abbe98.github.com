@@ -28,7 +28,7 @@ tags:
 ### Maps
 
  - [Interactive mapping can help people with disabilities](http://www.sfchronicle.com/opinion/openforum/article/Interactive-mapping-can-help-people-with-6427515.php?t=d21d133c06&cmpid=twitter-premium)
- - [Mapping Turn Lanes in OpenStreetMap](https://www.mapbox.com/blog/turn-lanes-mapping/)
+ - [Mapping Turn Lanes in OpenStreetMap](https://web.archive.org/web/20181229034000/https://blog.mapbox.com/mapping-turn-lanes-in-openstreetmap-5da9bf764f0d)
  - [Make your first Tangram map](https://mapzen.com/blog/learn-tangram)
  - [W3C Geofencing API Spec Ready for Comment & Contribution](http://www.programmableweb.com/news/w3c-geofencing-api-spec-ready-comment-contribution/2015/07/07)
 

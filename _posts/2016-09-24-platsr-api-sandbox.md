@@ -54,8 +54,8 @@ I will be attending both [Hack4Heritage][3] in Stockholm and [Hack4NO][4] in H&o
 [0]: http://www.platsr.se/platsr/
 [1]:  http://www.platsr.nu/platsrs-api/
 [2]: https://byabbe.se/platsr-api-sandbox/index.html
-[3]: http://www.hack4heritage.se/sv/
-[4]: http://hack4.no/
+[3]: https://www.raa.se/hack-for-heritage/
+[4]: https://web.archive.org/web/20200224051738/http://www.hack4.no/
 [5]: https://byabbe.se/2016/02/04/digging-deeper-with-heritage-data-and-a-geocoder
 [6]: https://byabbe.se/2016/01/25/ksamsok-the-basics
 [7]: https://byabbe.se/2016/01/26/ksamsok-php-advanced-usage

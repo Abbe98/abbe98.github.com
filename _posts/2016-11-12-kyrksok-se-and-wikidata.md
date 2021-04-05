@@ -43,7 +43,7 @@ Go ahead and check out all the Kyrks&ouml;k repositories over at [Github][10].
 [3]: https://sv.wikipedia.org/wiki/Portal:Huvudsida
 [4]: https://commons.wikimedia.org/wiki/Main_Page
 [5]: http://www.bebyggelseregistret.raa.se/bbr2/sok/search.raa
-[6]: http://paws-public.wmflabs.org/paws-public/44645351/churches-db/churches.rq
+[6]: https://github.com/Kyrkosok/database/blob/master/churches.rq
 [7]: https://query.wikidata.org/#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3Flocation%20%3Farticle%20%3Fkulturarvsdata%20WHERE%20%7B%0A%20%20%23defaultView%3AMap%0A%0A%20%20%23%20get%20all%20instance%20of%20subclass%20of%20church%0A%20%20%3Fitem%20wdt%3AP31%20%3Fchurchsub%20.%0A%20%20%3Fchurchsub%20wdt%3A279%2a%20wd%3AQ16970%20.%0A%20%20%23%20with%20country%20set%20to%20Sweden%0A%20%20%3Fitem%20wdt%3AP17%20wd%3AQ34%20.%0A%20%20%23%20which%20has%20a%20kulturarvsdata%20URI%20set%0A%20%20%3Fitem%20wdt%3AP1260%20%3Fkulturarvsdata%20.%0A%20%20%23%20...a%20coordinate%20location%0A%20%20%3Fitem%20wdt%3AP625%20%3Flocation%20.%0A%0A%20%20%23%20and%20a%20sv.wikipedia%20article%0A%20%20%3Farticle%20schema%3Aabout%20%3Fitem%20.%0A%20%20%3Farticle%20schema%3AinLanguage%20%22sv%22%20.%0A%20%20%3Farticle%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fsv.wikipedia.org%2F%3E%20.%0A%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP373%20%3FcommonsCategory%20.%0A%20%20%7D%0A%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP18%20%3Fimage%20.%0A%20%20%7D%0A%0A%20%20%23%20label%20it%20or%20the%20world%20turns%20into%20hell%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%22%20.%20%0A%20%20%7D%0A%7D
 [8]: https://github.com/Kyrkosok/api/blob/master/app.py
 [9]: https://github.com/Abbe98/KSamsok-py
