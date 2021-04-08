@@ -1,0 +1,27 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>{{ site.url }}</loc>
+    </url>
+    <url>
+        <loc>{{ site.url }}/archive.html</loc>
+    </url>
+    <url>
+        <loc>{{ site.url }}/blog/</loc>
+    </url>
+    <url>
+        <loc>{{ site.url }}/projects.html</loc>
+    </url>
+{% for post in site.posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+    </url>
+{% endfor %}
+    <!-- custom applications under this namespace -->
+    <url>
+        <loc>{{ site.url }}/on-this-day/</loc>
+    </url>
+</urlset>

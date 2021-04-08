@@ -2,6 +2,6 @@ name: "Blog"
 permalink: :year/:month/:day/:title
 paginate: 4
 paginate_path: "blog/page:num"
+url: "https://byabbe.se"
 plugins:
-  - jekyll-sitemap
   - jekyll-redirect-from
