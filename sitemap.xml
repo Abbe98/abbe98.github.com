@@ -24,4 +24,19 @@ layout: null
     <url>
         <loc>{{ site.url }}/on-this-day/</loc>
     </url>
+    <url>
+        <loc>{{ site.url }}/nils-holgersson-map/</loc>
+    </url>
+    <url>
+        <loc>{{ site.url }}/himlinge/</loc>
+    </url>
+    <url>
+        <loc>{{ site.url }}/office-workouts/</loc>
+    </url>
+    <url>
+        <loc>{{ site.url }}/books/</loc>
+    </url>
+    <url>
+        <loc>{{ site.url }}/ksamsok-php/</loc>
+    </url>
 </urlset>
