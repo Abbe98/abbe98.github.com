@@ -28,7 +28,7 @@ Next up let's turn a pagename/filename into a MID, think of a MID as Wikidata's 
 media_identifier = 'M{}'.format(page.pageid)
 </code></pre>
 
-Next up we need to fetch all existing structured data so that we can check what statements already exist. Here is the first example where we need to use Pywikibot's internal API wrapper "_simple_request" to call the Wikibase API, you could do the same with a regular HTTP library such as requests.
+Next up, we need to fetch all existing structured data so that we can check what statements already exist. Here is the first example where we need to use Pywikibot's internal API wrapper "_simple_request" to call the Wikibase API, you could do the same with a regular HTTP library such as requests.
 
 <pre><code class="language-python">request = site._simple_request(action='wbgetentities', ids=media_identifier)
 raw = request.submit()
@@ -37,7 +37,7 @@ if raw.get('entities').get(media_identifier).get('pageid'):
   existing_data = raw.get('entities').get(media_identifier)
 </code></pre>
 
-Next let us check if depicts (P180) got a statement with the value Q80151 (hat), if so exit the program.
+Next, let us check if depicts (P180) got a statement with the value Q80151 (hat), if so exit the program.
 
 <pre><code class="language-python">depicts = existing_data.get('statements').get('P180')
 # Q80151 (hat)
