@@ -7,7 +7,7 @@ tags:
   - museum
   - nationalmuseum
 ---
-Nationalmuseum, the national gallery of Sweden has had an API for about two and a half year (I think) but it has yet to have any public documentation. So I decided to write down its features and some random tips.
+Nationalmuseum, the national gallery of Sweden has had an API for about two and a half years (I think),but it has yet to have any public documentation. So I decided to write down its features and some random tips.
 
 ### Capabilities
 
@@ -22,7 +22,7 @@ Check.
 
 ### Pagination through all objects
 
-The API has two parameters for pagination `page` and `limit`. `limit` sets the number of objects you get per page the default is 50 and allowed values range from 1-100. 
+The API has two parameters for pagination `page` and `limit`. `limit` sets the number of objects you get per page, the default is 50 and allowed values range from 1-100. 
 
 Get the 100-200 objects\:
 ```
@@ -40,4 +40,4 @@ http://collection.nationalmuseum.se/eMP/eMuseumPlus?service=ExternalInterface&mo
 A great way to find interesting objects in the collection and connect it to other sources is to ask Wikidata\:
 [Objects in Wikidata with Nationalmuseum IDs](https://w.wiki/HN3)
 
-Finally for some insperation you could check out the [Nationalmuseum VIKUS Viewer instance](https://riksantikvarieambetet.github.io/VIKUS-Viewer-Nationalmuseum/).
+Finally, for some inspiration, you could check out the [Nationalmuseum VIKUS Viewer instance](https://riksantikvarieambetet.github.io/VIKUS-Viewer-Nationalmuseum/).
