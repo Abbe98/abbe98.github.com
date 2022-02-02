@@ -8,9 +8,11 @@ layout: null
 		<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 		<meta name="google-site-verification" content="ggbSb9CvyxZ8PpDwiViwiTeoswb37GKsWGMr7a6Nzew"/>
 		<title>{{ page.title }}</title>
+		<meta property="og:title" content="{{ page.title }}"/>
 
 		{% if page.layout == 'post' %}
 		<meta name="description" content="{{ page.description }}"/>
+		<meta property="og:description" content="{{ page.description }}"/>
 		{% if page.image %}<meta property="og:image" content="{{ page.image }}"/>{% endif %}
 		<meta property="og:description" content="{{ page.description }}"/>
 		{% endif %}
