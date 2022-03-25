@@ -4,7 +4,6 @@ title: Govdirectory and the Unlock Accelerator
 description: Highlights from my participation in the Unlock Accelerator program.
 image: https://byabbe.se/assets/govdirectory-header.jpeg
 tags:
-tags:
   - wikimedia
 ---
 > A crowdsourced and fact-checked directory of official governmental online accounts and services.

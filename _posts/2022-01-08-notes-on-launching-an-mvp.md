@@ -4,10 +4,10 @@ title: Notes on launching an MVP
 description: Following a decade of procrastination, I decided that it was about time to create a Swedish citizen-science platform for heritage sites and historic environments. Here are my notes from the launch.
 image: https://byabbe.se/assets/fornpunkt.png
 tags:
-tags:
   - crowdsourcing
   - fornpunkt
 ---
+
 Following a decade of procrastination, I decided that it was about time to create a Swedish citizen-science platform for heritage sites and historic environments and 80 work hours later I launched [fornpunkt.se](https://fornpunkt.se/).
 
 I have built quite a few crowdsourcing platforms [some over a long period of time](https://byabbe.se/2015/10/25/biocaching-continues), [some over a very short period of time](https://byabbe.se/2015/01/07/holiday-project-ksamsok). However, I'm not sure any of them would qualify as even close to a **minimum** viable product at their launch. FornPunkt was however, rather close to minimal while still functional.
