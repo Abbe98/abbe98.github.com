@@ -1,3 +1,27 @@
+:root {
+  --background-color: #fff;
+  --text-color: #222;
+  --text-secondary-color: #5f5f5f;
+  --link-color: #00e;
+  --link-secondary-color: #60b;
+
+  --mark-background-color: #fe0;
+  --blockquote-border-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #222;
+    --text-color: #efefef;
+    --text-secondary-color: #cbcbcb;
+    --link-color: #4589ee;
+    --link-secondary-color: #cf7bff;
+
+    --mark-background-color: #fe0;
+    --blockquote-border-color: rgba(255, 255, 255, 0.9);
+  }
+}
+
 /* *************** Post *************** */
 
 .post {
@@ -10,7 +34,7 @@
   display: block;
   padding-top: 7px;
   font-style: italic;
-  color: #5f5f5f;
+  color: var(--text-secondary-color);
 }
 
 .post img {
@@ -22,7 +46,6 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre-wrap;
-  background-color: #eee;
 }
 
 /* *************** ARCHIVE *************** */
@@ -56,7 +79,6 @@ pre {
 }
 
 code:not([class*="language-"]) {
-  background: #eee;
   border-radius: 3px;
   white-space: pre;
   padding: 0px 3px;
@@ -200,24 +222,22 @@ ul {
 
 
 body {
-  color: #222;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 1.5rem 1ch;
 }
 
 a, header nav a:visited {
-  color: #00e;
+  color: var(--link-color);
 }
 
 a:visited {
-  color: #60b;
+  color: var(--link-secondary-color);
 }
 
 mark {
   color: inherit;
-  background-color: #fe0;
-}
-
-body {
-  margin: 1.5rem 1ch;
+  background-color: var(--mark-background-color);
 }
 
 .center, body>header {
@@ -243,7 +263,7 @@ main aside {
 }
 
 blockquote {
-  border: solid rgba(0, 0, 0, 0.1);
+  border: solid var(--blockquote-border-color);
   margin-right: 3ch;
   margin-left: 1.5ch;
   border-width: 0 0 0 0.5ch;
