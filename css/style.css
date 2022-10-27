@@ -147,11 +147,6 @@ small {
   margin: 1.5rem 0 0;
 }
 
-ul {
-  margin: 0;
-}
-
-
 body {
   color: var(--text-color);
   background-color: var(--background-color);
