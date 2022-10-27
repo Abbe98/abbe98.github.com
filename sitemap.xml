@@ -12,9 +12,6 @@ layout: null
     <url>
         <loc>{{ site.url }}/blog/</loc>
     </url>
-    <url>
-        <loc>{{ site.url }}/projects.html</loc>
-    </url>
 {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
