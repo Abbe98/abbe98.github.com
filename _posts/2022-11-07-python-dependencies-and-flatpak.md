@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: Python Dependencies and Flatpak
 description: How do you use Python dependencies in Flatpak?
