@@ -1,0 +1,42 @@
+---
+layout: null
+title: Git forges
+description: List of my accounts on various Git forges.
+image: https://byabbe.se/assets/default2.png
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=5.0"/>
+		<meta name="google-site-verification" content="ggbSb9CvyxZ8PpDwiViwiTeoswb37GKsWGMr7a6Nzew"/>
+		<title>{{ page.title }}</title>
+
+		<meta name="description" content="{{ page.description }}"/>
+		<meta property="og:image" content="{{ page.image }}"/>
+		<meta property="og:description" content="{{ page.description }}"/>
+
+		<link rel="alternate" type="application/rss+xml" href="/blog/atom.xml" title="Albin Larssons Blog"/>
+		{% include general-icons.html %}
+		<link rel="stylesheet" href="/css/style.css"/>
+	</head>
+	<body>
+		{% assign menu_title = "<h1>Albin Larsson: Git forges</h1>" %}
+		{% include menu.html menu_title=menu_title %}
+		<div class="container">
+			<div class="post">
+				<p>List of my accounts on varous Git forges.</p>
+				<ul class="archive">
+					<li><a href="https://github.com/abbe98">Github</a></li>
+					<li><a href="https://codeberg.org/abbe98">Codeberg</a></li>
+					<li><a href="https://gerrit.wikimedia.org/r/q/owner:albin.post@gmail.com">Wikimedia (Gerrit)</a></li>
+					<li><a href="https://gitlab.gnome.org/Abbe98">GNOME</a></li>
+					<li><a href="https://gitlab.wikimedia.org/abbe98">Wikimedia GitLab</a></li>
+					<li><a href="https://gitlab.com/Abbe98">GitLab</a></li>
+				</ul>
+			</div>
+		</div>
+		{% include footer.html %}
+{% include global-javascript.html %}
+	</body>
+</html>
