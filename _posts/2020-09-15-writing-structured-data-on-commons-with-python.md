@@ -5,6 +5,7 @@ description: In this post, I introduce the reader to how one can write structure
 image: https://byabbe.se/assets/sdc-logo.png
 tags:
   - wikimedia
+  - python
 ---
 [Pywikibot does not yet have built-in support for writing Structured Data to Wikimedia Commons](https://phabricator.wikimedia.org/T223820) so to do so currently one needs to do it by posting JSON data to the Wikimedia Commons Wikibase API, this blog post will walk you through how to make the requests needed and how to structure the JSON to get it all working.
 

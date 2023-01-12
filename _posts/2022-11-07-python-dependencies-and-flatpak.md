@@ -4,6 +4,7 @@ title: Python Dependencies and Flatpak
 description: How do you use Python dependencies in Flatpak?
 tags:
   - linuxonmobile
+  - python
   - code
 ---
 I'm learning how to create responsive Gnome applications with Python, GTK4, and Flatpak. One of the early issues I ran into after I generated a new Python project using [Gnome Builder](https://flathub.org/apps/details/org.gnome.Builder)'s built in template was how to make Python dependencies from the Python package index aviable to my app.

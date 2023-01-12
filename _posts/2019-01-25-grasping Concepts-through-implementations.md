@@ -4,6 +4,7 @@ title: Grasping Concepts through Implementations
 description: I sometimes write code to learn things not at all related to code or technical concepts. Here is an example from when I was still in school.
 image: https://byabbe.se/assets/python_code.png
 tags:
+  - python
   - methodology
 ---
 
