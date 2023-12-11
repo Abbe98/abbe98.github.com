@@ -6,6 +6,7 @@
   --link-secondary-color: #60b;
 
   --mark-background-color: #fe0;
+  --code-background-color: #eee;
   --blockquote-border-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -18,6 +19,7 @@
     --link-secondary-color: #cf7bff;
 
     --mark-background-color: #fe0;
+    --code-background-color: #343434;
     --blockquote-border-color: rgba(255, 255, 255, 0.9);
   }
 }
@@ -78,13 +80,6 @@ pre {
   white-space: pre !important;
 }
 
-code:not([class*="language-"]) {
-  border-radius: 3px;
-  white-space: pre;
-  padding: 0px 3px;
-  font-size: 18px;
-}
-
 /*
 New
 */
@@ -96,7 +91,7 @@ html {
 }
 
 code:not([class*="language-"]) {
-  background: #eee;
+  background: var(--code-background-color);
   border-radius: 3px;
   white-space: pre;
   padding: 0px 3px;
