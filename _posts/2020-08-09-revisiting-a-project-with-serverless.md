@@ -3,6 +3,7 @@ layout: post
 title: Revisiting a Project with Serverless
 description: I'm revisiting an old project to experiment with serverless infrastructure
 tags:
+  - cloudflare-workers
   - runes
   - code
 ---
