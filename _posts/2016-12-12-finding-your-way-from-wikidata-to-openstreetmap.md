@@ -6,6 +6,7 @@ image: https://byabbe.se/assets/wikidata-osm-userscript.png
 tags:
   - wikimedia
   - openstreetmap
+  - maps
 redirect_from:
   - /blog/2016/12/12/finding-your-way-from-wikidata-to-openstreetmap
 ---
